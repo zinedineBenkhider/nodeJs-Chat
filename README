@@ -1,0 +1,3 @@
+ce que on a pas reussi a faire :
+la contrainte tant qu'une seule personne est connectée à la page, chaque fois qu'elle saisit un message, le texte wait for a second user lui est affiché en revanche on a fait un message wait for a second user qui s'affiche quand une seule personne est connectée.
+

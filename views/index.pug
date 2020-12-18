@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/script.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(charset="utf-8")
+    title Chat
+  body
+    h1 Chat:
+    form#formulaire_chat(action="/" method="post")
+      input#message(type="text" name="message" placeholder="input message here..." size="50" autofocus="")
+      input#envoi_message(type="submit" value="Envoyer")
+    section#zone_chat
